@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="193391" started-at="2020-08-20T08:55:45Z" finished-at="2020-08-20T08:58:59Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="143552" started-at="2020-08-20T08:55:45Z" finished-at="2020-08-20T08:58:09Z">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@21213b92]" name="setUpClass" is-config="true" duration-ms="380" started-at="2020-08-20T08:55:45Z" finished-at="2020-08-20T08:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@21213b92]" name="EmployeeTest" duration-ms="82650" started-at="2020-08-20T08:55:46Z" data-provider="features" finished-at="2020-08-20T08:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test CWL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@21213b92]" name="EmployeeTest" duration-ms="60310" started-at="2020-08-20T08:57:09Z" data-provider="features" finished-at="2020-08-20T08:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.Runner@21213b92]" name="afterClass" is-config="true" duration-ms="68" started-at="2020-08-20T08:58:09Z" finished-at="2020-08-20T08:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Test2 -->
+    <test name="Test" duration-ms="193391" started-at="2020-08-20T08:55:45Z" finished-at="2020-08-20T08:58:59Z">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@72d818d1]" name="setUpClass" is-config="true" duration-ms="380" started-at="2020-08-20T08:55:45Z" finished-at="2020-08-20T08:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@72d818d1]" name="EmployeeTest" duration-ms="160528" started-at="2020-08-20T08:55:46Z" data-provider="features" finished-at="2020-08-20T08:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test CWL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runner@72d818d1]" name="EmployeeTest" duration-ms="32305" started-at="2020-08-20T08:58:27Z" data-provider="features" finished-at="2020-08-20T08:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.Runner@72d818d1]" name="afterClass" is-config="true" duration-ms="47" started-at="2020-08-20T08:58:59Z" finished-at="2020-08-20T08:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
